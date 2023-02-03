@@ -18,7 +18,7 @@ h3 {
 
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -42,14 +42,14 @@ p {
 
 .nav_list {
     display: flex;
-    padding: 0.75rem 4rem 0.75rem 0rem;
+    padding: 0.75rem 5rem 0.75rem 0rem;
     justify-content: end;
 }
 
 .nav_list ul {
     display: flex;
     justify-content: end;
-    gap: 3rem;
+    /* gap: 3rem; */
     font-size: 1.6rem;
 }
 
@@ -109,14 +109,14 @@ a {
 
 .btn {
     padding-top: 3.1rem;
-    font: size 1.2rem;
+    font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .btn a {
     text-transform: capitalize;
     border-radius: 0.6rem;
-    padding: 0.6rem 1.25rem;
+    padding: 0.6rem 1.5rem;
     background-color: white;
     color: black !important;
     font-weight: 800;
@@ -620,10 +620,14 @@ p {
 
 
     .nav_list {
-        padding: 0rem;
-        margin-top: 0.25rem;
+        padding: 0rem 3rem 0rem 0rem;
+        position: absolute;
         width: 100%;
-        justify-content: center;
+        /* position: absolute;
+        padding: 0rem;
+        margin: 0.25rem 1rem;
+        width: 100%;
+        justify-content: end; */
     }
 
     .nav_list ul {
@@ -632,13 +636,13 @@ p {
 
     .clubname {
         font-size: 2.4rem;
-        padding: 1rem 5rem;
+        padding: 1rem 4rem;
     }
 
     .section-3 {
         row-gap: 3rem;
         padding: 4.25rem 0rem;
-        grid-template-columns: repeat(auto-fit, minmax(20rem, 29rem));
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 35rem));
     }
 
     .photo:hover {
@@ -650,11 +654,11 @@ p {
     }
 
     .photo {
-        width: 29rem;
+        width: 35rem;
     }
 
     .pic {
-        width: 28rem;
+        width: 35rem;
     }
 
     .note {
