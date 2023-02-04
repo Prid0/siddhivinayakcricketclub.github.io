@@ -302,7 +302,7 @@ p {
 
 .grid_container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(23.75rem, 1rem));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1rem));
     justify-content: center;
     padding: 25px;
     background-color: #161616;
@@ -311,7 +311,7 @@ p {
 .grid_box {
     overflow: hidden;
     position: relative;
-    margin: 1px;
+    margin: 2px;
     height: 13.3rem;
     transition: 0.3s ease-in;
 }
@@ -469,6 +469,42 @@ p {
 
 }
 
+@media screen and (max-width :1180px) {
+    .clubname {
+        padding: 1rem 7rem;
+    }
+
+    .section-3 {
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 33rem));
+        column-gap: 3.50rem;
+    }
+
+     .photo:hover {
+        transform: none;
+    } 
+
+    .photo {
+        width: 33rem;
+    }
+
+    .photo3 {
+        margin: 0rem 18rem;
+    }
+
+    .pic {
+        width: 33rem;
+    }
+
+    .grid_box {
+        height: auto;
+    }
+
+    .grid_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(34.6rem, 1rem));
+    }
+}
+
 @media screen and (max-width :1140px) {
     html {
         font-size: 14px;
@@ -484,6 +520,7 @@ p {
     .grid_container {
         padding: 9px;
     }
+    
 }
 
 
@@ -493,8 +530,79 @@ p {
         font-size: 12px;
     }
     .clubname {
-        padding: 1rem 9rem;
+        padding: 1rem 8rem;
     }
+}
+
+@media  (max-width :916px) ,screen and (orientation:portrait) {
+    
+    .section-3 {
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 33rem));
+        column-gap: 3.50rem;
+    }
+
+     .photo:hover {
+        transform: none;
+    } 
+
+    .photo {
+        width: 33rem;
+    }
+
+    .pic {
+        width: 33rem;
+    }
+
+    .grid_box {
+        height: auto;
+    }
+
+    .grid_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(35.75rem, 1rem));
+    }
+}
+
+@media  (max-width :860px) ,screen and (orientation:portrait) 
+  {
+
+    html {
+        font-size: 11px;
+    }
+    .clubname {
+        padding: 1rem 7rem;
+    }
+
+    .section-3 {
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 33rem));
+        column-gap: 3.50rem;
+    }
+
+     .photo:hover {
+        transform: none;
+    } 
+
+    .photo {
+        width: 33rem;
+    }
+
+    .photo3 {
+        margin: 0rem 18rem;
+    }
+
+    .pic {
+        width: 33rem;
+    }
+
+    .grid_box {
+        height: auto;
+    }
+
+    .grid_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(34.6rem, 1rem));
+    }
+
 }
 
 @media screen and (max-width :820px) {
