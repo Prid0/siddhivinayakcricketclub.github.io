@@ -18,7 +18,7 @@ h3 {
 
 
 p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -69,7 +69,7 @@ a {
 
 /* <!-- nav-bar end --> */
 
-/* main-section */
+/* ------------------main-section------------------ */
 .main {
     display: flex;
     height: 39rem;
@@ -89,13 +89,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 56.25rem;
+    max-width: 57.25rem;
     color: white;
 }
 
 .message h2 {
     text-transform: capitalize;
     font-size: 3.3rem;
+    margin: 0rem 1rem;
     text-align: center;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
@@ -108,14 +109,14 @@ a {
 }
 
 .btn {
-    padding-top: 3.1rem;
-    font: size 1.2rem;
+    padding-top: 3rem;
+    font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
 }
 
 .btn a {
     text-transform: capitalize;
-    border-radius: 0.6rem;
+    border-radius: 0.9rem;
     padding: 0.6rem 1.25rem;
     background-color: white;
     color: black !important;
@@ -129,7 +130,7 @@ a {
     color: white !important;
 }
 
-/* section-2 */
+/* ------------------section-2------------------ */
 
 .section-2 {
     flex-direction: column;
@@ -160,15 +161,15 @@ a {
     color: rgb(85, 84, 84);
 }
 
-/* section-3 */
+/* ------------------section-3------------------ */
 
 .section-3 {
     display: grid;
     padding: 6.25rem 0rem;
-
     grid-template-columns: repeat(auto-fit, minmax(20rem, 24rem));
     justify-content: center;
     column-gap: 1.25rem;
+    row-gap: 5rem;
     background-image: url("http://www.htmlpreviews.com/cloud/cricket/cloudie2/images/bg_pattern.png");
 }
 
@@ -233,7 +234,6 @@ p {
     background-image: url("http://www.htmlpreviews.com/cloud/cricket/cloudie2/images/big_line_bg.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* height: 40vh;  */
     height: auto;
     justify-content: center;
     position: relative;
@@ -249,7 +249,7 @@ p {
     padding: 2rem 5rem;
 }
 
-/* section-4 */
+/* ------------------section-4------------------ */
 
 /* .section-4 {
     display: flex;
@@ -348,7 +348,7 @@ p {
 }
 
 
-/* footer */
+/* ------------------footer------------------ */
 
 .footer {
     background-color: #3535356c;
@@ -383,9 +383,14 @@ p {
 }
 
 .media_link {
+    gap: 2rem;
+    display: flex;
+}
+
+.media_link a {
     color: rgb(85, 84, 84);
     font-size: 2rem;
-    padding: 0px 12px;
+    /* padding: 0px 12px; */
 }
 
 .media_link :hover {
@@ -398,7 +403,7 @@ p {
     text-align: center;
 }
 
-/* contact page */
+/* ------------------contact page------------------ */
 
 .contact {
     display: flex;
@@ -535,10 +540,6 @@ p {
         padding: 20px 0px 10px 0px;
     }
 
-    .row_right {
-        padding: 0rem 0rem 0rem 2rem;
-    }
-
     .contact {
         flex-wrap: wrap;
     }
@@ -585,6 +586,10 @@ p {
         grid-template-columns: repeat(auto-fit, minmax(36.75rem, 1rem));
     }
 
+    .row_right {
+        width: 100%;
+    }
+
     /* contect_page */
 
     .mapcontainer {
@@ -608,10 +613,6 @@ p {
         font-size: 9px;
     }
 
-    .navcontainer {
-        flex-wrap: wrap;
-    }
-
     .logo {
         margin: 0rem;
         width: 100%;
@@ -620,10 +621,11 @@ p {
 
 
     .nav_list {
-        padding: 0rem;
-        margin-top: 0.25rem;
-        width: 100%;
-        justify-content: center;
+        /* margin-top: 0.25rem;  */
+        /* width: 100%;
+        justify-content: end;
+        position: absolute; */
+        display: none;
     }
 
     .nav_list ul {
@@ -638,7 +640,7 @@ p {
     .section-3 {
         row-gap: 3rem;
         padding: 4.25rem 0rem;
-        grid-template-columns: repeat(auto-fit, minmax(20rem, 29rem));
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 35rem));
     }
 
     .photo:hover {
@@ -650,11 +652,11 @@ p {
     }
 
     .photo {
-        width: 29rem;
+        width: 35rem;
     }
 
     .pic {
-        width: 28rem;
+        width: 34rem;
     }
 
     .note {
@@ -682,6 +684,17 @@ p {
     .row_right {
         width: 100%;
         padding: 20px 15px 10px 0px;
+    }
+
+    /* ----footer---- */
+
+    .media_link {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .media_link a {
+        font-size: 3rem;
     }
 
     /* contact_page */
