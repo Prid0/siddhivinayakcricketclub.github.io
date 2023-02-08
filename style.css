@@ -336,13 +336,14 @@ p {
     width: 100%;
     height: 0;
     overflow: hidden;
-    background-color: rgba(117, 204, 255, 0.37);
+    background-color: rgba(253, 253, 253, 0.288);
     transition: 0.5s ease-out;
 }
 
 .overlay p {
     color: black !important;
-    padding: 5px;
+    padding: 6px;
+    font-size: 1rem;
 }
 
 .grid_box:hover .overlay {
